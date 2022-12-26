@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prosto One', cursive;
+}
+body{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* main div */
+.main{
+    height: 90%;
+    width: 80%;
+    display: flex;
+}
+
+/* main left side div */
+.main-left{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    background: url("https://cdn.pixabay.com/photo/2019/07/26/20/52/man-4365597_960_720.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.logo-container{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.6;
+}
+.logo{
+    width: 100px;
+}
+.logo-text{
+    font-size: 64px;
+    font-family: 'Nosifer', cursive;
+}
+
+/* main right side div */
+.main-right{
+    height: 100%;
+    padding: 20px;
+    width: 70%;
+    background-color: #f9fafb;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.form-container{
+    background-color: white;
+    margin: 20px 0px;
+    padding: 10px;
+}
+/* .form{
+    display: flex;
+    justify-content: space-around;
+} */
+.form-right{
+    display: inline-block;
+}
+.form-left{
+    display: inline-block;
+}
+label{
+    font-size: small;
+}
+.inp-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.btn{
+    display: block;
+    background-color: #596d48;
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.para{
+    display: inline;
+}
+.link{
+    text-decoration: none;
+    color: #596d48;
+    display: inline;
+}
